@@ -19,6 +19,7 @@ data = data_full[["mpg", "disp", "drat", "wt", "qsec", "hp"]]
 
 #view first six rows of data
 data[0:6]
+
 #define predictor and response variables
 X = data[["mpg", "disp", "drat", "wt", "qsec"]]
 y = data[["hp"]]
